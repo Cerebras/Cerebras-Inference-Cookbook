@@ -16,7 +16,7 @@ export CEREBRAS_API_KEY=<your API key>
 
 All code samples are written in Python and intentionally designed to highlight real-time performance. From streaming token-by-token responses to iterative summarization loops, each recipe showcases patterns that benefit from Cerebras’ high-throughput inference engine.
 
-For more resources—including production tips and API reference—check out the Cerebras Inference documentation.
+For more resources—including production tips and API reference—check out the [Cerebras Inference documentation](https://inference-docs.cerebras.ai).
 
 ## Featured Recipes
 
