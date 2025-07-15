@@ -1,7 +1,7 @@
 # Cerebras Inference Cookbook
 
-<p align="center">
-  <img src="images/cerebras-inference-logo.svg" width="300" alt="Cerebras Inference Logo">
+<p align="left">
+  <img src="images/cerebras-inference-logo.svg" width="500" alt="Cerebras Inference Logo">
 </p>
 
 This repository showcases example workflows and code snippets built specifically to take advantage of Cerebras’ ultra-fast inference capabilities. Whether you’re building agent pipelines, structured output generators, or multi-turn tools, these examples demonstrate how to harness low-latency inference for more interactive and iterative LLM applications.
