@@ -1,6 +1,6 @@
 # Implementing Gist Memory: Summarizing and Searching Long Documents with a ReadAgent
 
-An AI system that enables efficient question-answering on long documents by using [Gist memory](https://arxiv.org/abs/2402.09727), a technique developed by Google DeepMind. The agent processes lengthy papers into digestible "gists" and intelligently retrieves specific sections when answering questions, inspired by how humans naturally skim and recall information.
+An AI system that enables efficient question-answering on long documents by using [Gist memory](https://arxiv.org/abs/2402.09727), a technique developed by Google DeepMind. The agent processes lengthy papers into digestible "gists" and intelligently retrieves specific sections when answering questions, inspired by how humans naturally skim and recall information. For a full walkthrough of this cookbook recipe, please click [here](https://inference-docs.cerebras.ai/cookbook/gist-memory).
 
 ## Overview
 
