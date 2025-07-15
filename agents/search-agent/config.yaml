@@ -1,0 +1,32 @@
+# Search Agent Configuration
+
+# Model Configuration
+models:
+  question_generator: "llama3.1-8b"
+  main_model: "llama-3.3-70b"
+  critique_model: "qwen-3-32b"
+  writer_model: "llama-3.3-70b"
+  outliner_model: "llama-3.3-70b"
+
+# Research Configuration
+research:
+  num_follow_up_questions: 4
+  num_search_results_per_query: 3
+  num_articles_per_query: 3
+  enable_parallelization: false  # Set to true for faster processing (may hit rate limits)
+
+# Report Configuration
+report:
+  target_word_count:
+    min: 1000
+    max: 1500
+  outline_word_count:
+    min: 800
+    max: 1000
+
+# API Configuration
+api:
+  max_tokens:
+    default: 2048
+    extended: 4096
+  temperature: 0.7
