@@ -1,6 +1,6 @@
 # Automating Search-Based Report Generation with a Multi-Agent AI Pipeline
 
-An multi-agent AI system that automatically generates comprehensive research reports from web sources. The system takes a high-level topic, conducts targeted research, and produces a polished report with proper citations. For a full walkthrough of this cookbook recipe, please click [here](https://inference-docs.cerebras.ai/cookbook/search-agent).
+An multi-agent AI system that automatically generates comprehensive research reports from web sources. The system takes a high-level topic, conducts targeted research, and produces a polished report with proper citations. For a full walkthrough of this cookbook recipe, please click [here](https://inference-docs.cerebras.ai/cookbook/agents/search-agent).
 
 ## Overview
 
