@@ -52,12 +52,3 @@ The system will:
 2. Process the document into paginated gists
 3. Enter interactive Q&A mode where you can ask questions about the paper
 4. Display performance metrics after each operation
-
-## Configuration
-
-The agent uses configurable parameters:
-- Model selection (default: llama-3.3-70b)
-- Word limits for pagination (600 words per page)
-- Start threshold for break point detection (280 words)
-- Maximum pages for retrieval during Q&A (1-6 pages)
-
