@@ -6,7 +6,7 @@
 
 This repository showcases example workflows and code snippets built specifically to take advantage of Cerebras’ ultra-fast inference capabilities. Whether you’re building agent pipelines, structured output generators, or multi-turn tools, these examples demonstrate how to harness low-latency inference for more interactive and iterative LLM applications.
 
-To get started, you’ll need access to the Cerebras Inference API and an API key. If you don't have one already, you can get one here. 
+To get started, you’ll need access to the Cerebras Inference API and an API key. If you don't have one already, you can get [one here](https://cloud.cerebras.ai). 
 
 Once you have your key, set it as an environment variable:
 
