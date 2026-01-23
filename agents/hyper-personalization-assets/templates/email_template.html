@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Backcountry - {{ headline }}</title>
+  <style>
+    .email-container * { margin: 0; padding: 0; box-sizing: border-box; }
+    .email-container { 
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      background-color: {{ background_color }};
+      color: {{ text_color }};
+      max-width: 600px;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="email-container">
+    <!-- Header Banner -->
+    <table width="100%" cellspacing="0" cellpadding="0" border="0" style="background-color: #DCC37C;">
+      <tr>
+        <td align="center" style="padding: 10px; font-size: 16px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;">
+          {{ banner_text }}
+        </td>
+      </tr>
+    </table>
+
+    <!-- Logo Header -->
+    <table width="100%" cellspacing="0" cellpadding="0" border="0" style="background-color: {{ header_bg_color }};">
+      <tr>
+        <td align="center" style="padding: 20px;">
+          <div style="font-size: 24px; font-weight: bold; color: {{ text_color }}; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;">
+            BACKCOUNTRY
+          </div>
+        </td>
+      </tr>
+    </table>
+
+    <!-- Hero Section -->
+    <table width="100%" cellspacing="0" cellpadding="0" border="0" style="background-color: {{ hero_bg_color }};">
+      <tr>
+        <td align="center" style="padding: 40px 20px;">
+          <p style="font-size: 20px; color: {{ subheadline_color }}; margin-bottom: 12px;">
+            {{ greeting }}
+          </p>
+          <h1 style="font-size: 32px; font-weight: bold; color: {{ headline_color }}; margin-bottom: 16px;">
+            {{ headline }}
+          </h1>
+          <p style="font-size: 18px; color: {{ subheadline_color }}; margin-bottom: 24px;">
+            {{ subheadline }}
+          </p>
+          <a href="https://www.backcountry.com" style="display: inline-block; background-color: {{ cta_bg_color }}; color: {{ cta_text_color }}; padding: 14px 32px; text-decoration: none; font-weight: bold; border-radius: 4px;">
+            {{ cta_text }}
+          </a>
+        </td>
+      </tr>
+    </table>
+
+    <!-- Product Section -->
+    <table width="100%" cellspacing="0" cellpadding="0" border="0" style="background-color: {{ content_bg_color }};">
+      <tr>
+        <td align="center" style="padding: 40px 20px;">
+          <h2 style="font-size: 24px; color: {{ text_color }}; margin-bottom: 24px;">
+            {{ product_section_title }}
+          </h2>
+        </td>
+      </tr>
+      <tr>
+        <td align="center" style="padding: 10px 20px 40px 20px;">
+          <a href="https://www.backcountry.com">
+            <img src="{{ product_image }}" alt="{{ product_name }}" style="max-width: 400px; width: 100%; height: auto; border-radius: 8px;" />
+          </a>
+          <p style="font-size: 16px; color: {{ text_color }}; margin-top: 16px; font-weight: bold;">
+            {{ product_name }}
+          </p>
+          <p style="font-size: 14px; color: {{ secondary_text_color }}; margin-top: 8px;">
+            {{ product_tagline }}
+          </p>
+        </td>
+      </tr>
+    </table>
+
+    <!-- Promo Message -->
+    <table width="100%" cellspacing="0" cellpadding="0" border="0" style="background-color: {{ promo_bg_color }};">
+      <tr>
+        <td align="center" style="padding: 30px 20px;">
+          <p style="font-size: 18px; color: {{ promo_text_color }}; font-weight: bold;">
+            {{ promo_message }}
+          </p>
+        </td>
+      </tr>
+    </table>
+
+    <!-- Footer -->
+    <table width="100%" cellspacing="0" cellpadding="0" border="0" style="background-color: #333333;">
+      <tr>
+        <td align="center" style="padding: 24px 20px;">
+          <p style="font-size: 12px; color: #9CA3AF;">
+            © 2024 Backcountry.com. All rights reserved.
+          </p>
+          <p style="font-size: 12px; color: #9CA3AF; margin-top: 8px;">
+            2607 South 3200 West, Suite A, Salt Lake City, UT 84119
+          </p>
+        </td>
+      </tr>
+    </table>
+  </div>
+</body>
+</html>
