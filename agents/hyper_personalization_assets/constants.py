@@ -98,21 +98,21 @@ COLOR_SCHEMES = {
 
 # Product names by gender
 PRODUCT_NAMES = {
-    "male": "Patagonia Fitz Roy Icon Responsibili-Tee - Men's",
-    "female": "Patagonia Classic Microdini Jacket - Women's"
+    "male": "Cascadia Mt. Ranier Responsibili-Tee - Men's",
+    "female": "Cascadia Classic Mailbox Peak Jacket - Women's"
 }
 
 # Product images by gender and color preference
 PRODUCT_IMAGES = {
     "male": {
-        "red": "sample-data/male-red.jpg",
-        "green": "sample-data/male-green.jpg",
-        "white": "sample-data/male-white.jpg",
+        "red": "hyper_personalization_assets/images/male-red.jpg",
+        "green": "hyper_personalization_assets/images/male-green.jpg",
+        "white": "hyper_personalization_assets/images/male-white.jpg",
     },
     "female": {
-        "red": "sample-data/women-red-jacket.jpg",
-        "green": "sample-data/women-grey-jacket.jpg",
-        "white": "sample-data/women-white-jacket.jpg",
+        "red": "hyper_personalization_assets/images/women-red-jacket.jpg",
+        "green": "hyper_personalization_assets/images/women-grey-jacket.jpg",
+        "white": "hyper_personalization_assets/images/women-white-jacket.jpg",
     }
 }
 
