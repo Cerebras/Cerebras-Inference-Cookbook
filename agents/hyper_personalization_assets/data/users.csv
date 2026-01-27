@@ -1,0 +1,7 @@
+user_id,name,preferred_color,preferred_language,gender,tone,personality,background_mode
+550e8400-e29b-41d4-a716-446655440001,Alex,red,en,male,casual,extroverted,bright
+550e8400-e29b-41d4-a716-446655440002,Maria,green,sp,female,friendly,balanced,bright
+550e8400-e29b-41d4-a716-446655440003,Klaus,white,de,male,formal,introverted,dark
+550e8400-e29b-41d4-a716-446655440004,Emma,red,en,female,casual,extroverted,bright
+550e8400-e29b-41d4-a716-446655440005,Jordan,green,en,male,friendly,balanced,dark
+550e8400-e29b-41d4-a716-446655440006,Sofia,white,sp,female,formal,introverted,dark
